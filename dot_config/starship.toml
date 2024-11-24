@@ -16,10 +16,49 @@ format = '[$symbol](bold white) '
 disabled = false
 
 [os.symbols]
-Windows = ' '
-Arch = '󰣇'
-Ubuntu = ''
-Macos = '󰀵'
+Alpaquita = " "
+Alpine = " "
+AlmaLinux = " "
+Amazon = " "
+Android = " "
+Arch = " "
+Artix = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = "󰛓 "
+Gentoo = " "
+HardenedBSD = "󰞌 "
+Illumos = "󰈸 "
+Kali = " "
+Linux = " "
+Mabox = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+OpenBSD = "󰈺 "
+openSUSE = " "
+OracleLinux = "󰌷 "
+Pop = " "
+Raspbian = " "
+Redhat = " "
+RedHatEnterprise = " "
+RockyLinux = " "
+Redox = "󰀘 "
+Solus = "󰠳 "
+SUSE = " "
+Ubuntu = " "
+Unknown = " "
+Void = " "
+Windows = "󰍲 "
 
 # User
 [username]
@@ -33,6 +72,7 @@ show_always = true
 [hostname]
 ssh_only = false
 format = 'on [localhost](bold yellow) '
+ssh_symbol = ' '
 disabled = false
 
 # Directory
@@ -41,7 +81,7 @@ truncation_length = 1
 truncation_symbol = '…/'
 home_symbol = '󰋜 ~'
 read_only_style = '197'
-read_only = '  '
+read_only = ' 󰌾 '
 format = 'at [$path]($style)[$read_only]($read_only_style) '
 
 # Git branch
@@ -73,24 +113,134 @@ deleted = '[󰍶 deleted=${count}](red) '
 format = 'via [󱃾 $context\($namespace\)](bold purple) '
 disabled = false
 
+# Language and tools configuration
+[aws]
+symbol = "  "
+
+[buf]
+symbol = " "
+
+[c]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[crystal]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[fennel]
+symbol = " "
+
+[fossil_branch]
+symbol = " "
+
+[git_commit]
+tag_symbol = '  '
+
+[golang]
+symbol = " "
+
+[guix_shell]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[haxe]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[kotlin]
+symbol = " "
+
+[lua]
+symbol = " "
+
+[memory_usage]
+symbol = "󰍛 "
+
+[meson]
+symbol = "󰔷 "
+
+[nim]
+symbol = "󰆥 "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+disabled = false
+
+[ocaml]
+symbol = " "
+
+[package]
+symbol = "󰏗 "
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+
+[pijul_channel]
+symbol = " "
+
+[python]
+symbol = " "
+disabled = false
+
+[rlang]
+symbol = "󰟔 "
+
+[ruby]
+symbol = " "
+disabled = false
+
+[rust]
+symbol = "󱘗 "
+
+[scala]
+symbol = " "
+
+[swift]
+symbol = " "
+
+[terraform]
+symbol = " "
+disabled = false
+
+[zig]
+symbol = " "
+
+[gradle]
+symbol = " "
+
 # Disable unnecessary modules
 [vagrant]
 disabled = true
 
-[docker_context]
-disabled = true
-
 [helm]
-disabled = true
-
-[python]
-disabled = true
-
-[nodejs]
-disabled = true
-
-[ruby]
-disabled = true
-
-[terraform]
 disabled = true
