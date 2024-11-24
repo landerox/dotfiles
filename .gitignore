@@ -1,0 +1,11 @@
+# Visual Studio Code files
+.vscode/
+.history/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log and temporary files
+*.log
+*.tmp
